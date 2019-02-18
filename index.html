@@ -293,7 +293,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/17/test/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/17/1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Oliver Wang">
@@ -313,7 +313,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/02/17/test/" class="post-title-link" itemprop="url">test</a>
+                <a href="/2019/02/17/1/" class="post-title-link" itemprop="url">我是如何安装这个博客的</a>
               
             
           </h1>
@@ -338,7 +338,7 @@
                 
               
 
-              <time title="创建时间：2019-02-17 18:53:32 / 修改时间：19:03:57" itemprop="dateCreated datePublished" datetime="2019-02-17T18:53:32+08:00">2019-02-17</time>
+              <time title="创建时间：2019-02-17 18:53:32 / 修改时间：20:54:14" itemprop="dateCreated datePublished" datetime="2019-02-17T18:53:32+08:00">2019-02-17</time>
             
 
             
@@ -379,55 +379,22 @@
       
         
           
-            <h1 id="Aero-Dual-Hexo-Theme"><a href="#Aero-Dual-Hexo-Theme" class="headerlink" title="Aero Dual Hexo Theme"></a>Aero Dual Hexo Theme</h1><p>A hexo theme with aero, responsive design. <strong>Easy switch of dark and light style by simple config (<a href="https://github.com/levblanc/hexo-theme-aero-dual#configuration" target="_blank" rel="noopener">will explain below</a>).</strong> You can also change theme color by modifying corresponding stylesheet. Each style has <strong>FIVE</strong> colors ready to use (<a href="https://github.com/levblanc/hexo-theme-aero-dual#change-theme-color" target="_blank" rel="noopener">check it out!</a>).</p>
-<p><a href="https://levblanc.github.io/" target="_blank" rel="noopener">See It Live Here</a> (configured as light theme style, blue theme color).</p>
-<p><strong>Please note:</strong></p>
-<p>This theme <strong>does not</strong> support widgets(other than tag, category and archive) and article comments(Disqus and others) out of the box. Adding them would be a <strong>big maybe</strong>, depending on my current workload. </p>
-<p>If you really like this theme, feel free to tweak and play with it on adding them by yourself. Also, checking out other hexo themes may help. :)</p>
-<p><img src="https://github.com/levblanc/hexo-theme-aero-dual/blob/master/source/img/aero-dual-thumbnail.jpg" alt="Dark and Light Style Switch"></p>
-<p><img src="https://github.com/levblanc/hexo-theme-aero-dual/blob/master/source/img/aero-dual-color-change.jpg" alt="Theme Color Switch"></p>
-<h2 id="Third-party-libraries-used"><a href="#Third-party-libraries-used" class="headerlink" title="Third party libraries used"></a>Third party libraries used</h2><ul>
-<li><a href="http://getbootstrap.com/css/" target="_blank" rel="noopener">Bootstrap</a></li>
-<li><a href="https://highlightjs.org/" target="_blank" rel="noopener">Highlight.js</a> (for code highlight)</li>
-<li><a href="https://github.com/sofish/typo.css" target="_blank" rel="noopener">Typo.css</a> (for better Chinese reading experience)</li>
-</ul>
-<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/levblanc/hexo-theme-aero-dual.git themes/aero-dual</span><br></pre></td></tr></table></figure>
-<p><strong>Aero-dual was developed under Hexo 3.2.2, other hexo versions’ capatabilities are not tested yet.</strong></p>
-<h3 id="Enable"><a href="#Enable" class="headerlink" title="Enable"></a>Enable</h3><p>Modify <code>theme</code> setting in your blog’s main <code>_config.yml</code> to <code>aero-dual</code>.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: http://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: http://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">aero-dual</span></span><br></pre></td></tr></table></figure>
-<h3 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/aero-dual</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
-<h2 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h2><p>You will have to start <code>hexo server</code> locally to see the changes.</p>
-<h3 id="Change-Theme-Style"><a href="#Change-Theme-Style" class="headerlink" title="Change Theme Style"></a>Change Theme Style</h3><p>In your blog’s main <code>_config.yml</code>, configure <code>theme_style</code> as <code>dark</code> or <code>light</code> (this is where <code>dual</code> in the theme’s name comes in to play). <strong>Restart</strong> your server after modifying the <code>theme_style</code> to see the change.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># theme_style is default to 'light'</span></span><br><span class="line"><span class="attr">theme_style:</span> <span class="string">dark</span></span><br></pre></td></tr></table></figure>
-<h3 id="Change-Theme-Color"><a href="#Change-Theme-Color" class="headerlink" title="Change Theme Color"></a>Change Theme Color</h3><p>To do this, you need to dig into the theme’s stylesheets.</p>
-<p>But <strong>RELAX</strong>, it’s <strong>SIMPLE</strong>.</p>
-<p>Under the following path:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;your-blog&gt;/themes/aero-dual/<span class="built_in">source</span>/css/</span><br></pre></td></tr></table></figure>
-<p>There are two stylesheet files: <code>style.light.styl</code> and <code>style.dark.styl</code>.<br>(OK, if you really don’t know how to find them following the above path, just <strong>search the files by name</strong> in your project :) )</p>
-<p>Let’s use <code>style.light.styl</code> as example. You will see colors already pre-configured in this file:</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* basic colors */</span></span><br><span class="line"><span class="variable">$color</span>-white      = <span class="number">#FFF</span></span><br><span class="line"><span class="variable">$color</span>-black      = <span class="number">#555</span></span><br><span class="line"><span class="variable">$color</span>-beige      = <span class="number">#F0E8DF</span></span><br><span class="line"><span class="variable">$color</span>-grey       = <span class="number">#85878A</span></span><br><span class="line"><span class="variable">$color</span>-light-grey = <span class="number">#E1E1E1</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* theme colors */</span></span><br><span class="line"><span class="variable">$light</span>-red    = <span class="number">#F03838</span></span><br><span class="line"><span class="variable">$light</span>-pink   = <span class="number">#EA4D8A</span></span><br><span class="line"><span class="variable">$light</span>-orange = <span class="number">#ff6347</span></span><br><span class="line"><span class="variable">$light</span>-blue   = <span class="number">#1999EC</span></span><br><span class="line"><span class="variable">$light</span>-purple = <span class="number">#B27DF4</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* modify value of $theme-color to theme colors specify above</span></span><br><span class="line"><span class="comment">  to enable different theme colors */</span></span><br><span class="line"><span class="variable">$theme</span>-<span class="attribute">color</span>            = <span class="variable">$light</span>-blue   </span><br><span class="line"><span class="variable">$theme</span>-text-<span class="attribute">color</span>       = <span class="variable">$color</span>-black</span><br><span class="line"><span class="variable">$theme</span>-<span class="attribute">background</span>       = <span class="variable">$color</span>-white</span><br><span class="line"><span class="variable">$theme</span>-code-<span class="attribute">background</span>  = <span class="variable">$color</span>-beige</span><br><span class="line"><span class="variable">$theme</span>-seperator        = <span class="variable">$color</span>-light-grey</span><br><span class="line"><span class="variable">$theme</span>-dotted-seperator = <span class="variable">$color</span>-grey</span><br></pre></td></tr></table></figure>
-<p>Now Change <code>$light-blue</code> to <code>$light-orange</code>, and save the file.</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$theme</span>-<span class="attribute">color</span> = <span class="variable">$light</span>-orange</span><br></pre></td></tr></table></figure>
-<p>If you have <code>hexo-browsersync</code> installed locally, the page will automatically refresh when you change the <code>$theme-color</code> value. If you haven’t installed this package, just refresh the page by yourself.</p>
-<p>This way, you can add even more colors to the stylesheet and change it whenever you want. <code>style.dark.styl</code> works just the same.</p>
-<p>Even more, you can configure all colors in this stylesheet to your content.</p>
-<p>PS: I haven’t figured out the way to pass settings in <code>_config.yml</code> into stylesheets. If this can be done, it would be much easier to configure colors, rather than having users to change values in stylesheets. Please send me an email or open a new issue if any one knows how to do this. Thanks!</p>
-<h3 id="Banner-image"><a href="#Banner-image" class="headerlink" title="Banner image"></a>Banner image</h3><p>Modify <code>use_header_cover</code> to enable/disable banner.<br>Modify <code>index_cover</code> in the theme’s <code>_config.yml</code> to change banner image.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Set to false to disable banner</span></span><br><span class="line"><span class="attr">use_header_cover:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># URL of the banner image</span></span><br><span class="line"><span class="comment"># Put your custom banner image under</span></span><br><span class="line"><span class="comment"># the theme's img folder: your-blog/themes/aero-dual/source/img/</span></span><br><span class="line"><span class="comment"># and modify index_cover's value like so:</span></span><br><span class="line"><span class="comment"># index_cover: /img/your-custom-banner.jpg</span></span><br><span class="line"><span class="comment"># or</span></span><br><span class="line"><span class="comment"># Put your custom banner image under</span></span><br><span class="line"><span class="comment"># your blog's images folder: your-blog/source/images/</span></span><br><span class="line"><span class="comment"># and modify index_cover's value like so:</span></span><br><span class="line"><span class="comment"># index_cover: /images/your-custom-banner.jpg</span></span><br><span class="line"><span class="comment"># or</span></span><br><span class="line"><span class="comment"># Specify an online resource like so:</span></span><br><span class="line"><span class="comment"># index_cover: http://somewhere.com/path/to/banner.jpg</span></span><br><span class="line"><span class="attr">index_cover:</span> <span class="string">/img/default-banner-dark.jpg</span></span><br></pre></td></tr></table></figure>
-<p>Up till this step, even if you don’t change the theme color, you’ll have at lease <strong>FOUR</strong> variations of the theme: <code>dark</code> style with or without home page banner; <code>light</code> style with or without home page banner.</p>
-<h3 id="Post’s-Banner-Image"><a href="#Post’s-Banner-Image" class="headerlink" title="Post’s Banner Image"></a>Post’s Banner Image</h3><p>Home page banner and post page banner is set to be the same by default.<br>You can specify a custom cover in the front-matter:</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">title: My awesome title</span><br><span class="line">date: 2016-07-25 18:38:45</span><br><span class="line">tags: ["awesome"]</span><br><span class="line">cover: /images/awesome-bg.jpg  # &lt;= remember to add this line in your post</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p>You will need to create an <code>images</code> folder under your blog’s <code>source</code> folder, and put your own <code>awesome-bg.jpg</code> in it for the above config to work. Of course, you can use whatever folder and image names you want, but be sure to reference them correctly in the <code>cover</code> line.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">your-blog</span><br><span class="line">├── _config.yml</span><br><span class="line">├── node_modules</span><br><span class="line">├── package.json</span><br><span class="line">├── public</span><br><span class="line">├── scaffolds</span><br><span class="line">├── <span class="built_in">source</span></span><br><span class="line">│    ├── _posts</span><br><span class="line">│    └── images   <span class="comment"># &lt;= here</span></span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
-<p>Also, be aware of the color of the cover image you choose, since the title and menu color are set to white by default. Texts are very hard to distinguish in white backgrounds, although I’ve given the texts some shadow already.</p>
-<h3 id="Menu"><a href="#Menu" class="headerlink" title="Menu"></a>Menu</h3><p>Modify <code>menu</code> values in the theme’s <code>_config.yml</code>.<br>You can change <code>GitHub</code> and <code>Email</code> to other menu item names you want. Or you can just change these two keys’ values to your own info.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Header Menu</span></span><br><span class="line"><span class="attr">menu:</span></span><br><span class="line"><span class="attr">  Home:</span> <span class="string">/</span></span><br><span class="line"><span class="attr">  Archives:</span> <span class="string">/archives</span></span><br><span class="line">  <span class="comment"># change github and email values to your own info</span></span><br><span class="line"><span class="attr">  Github:</span> <span class="attr">https://github.com/levblanc</span></span><br><span class="line"><span class="attr">  Email:</span> <span class="attr">mailto:levblanc@163.com</span></span><br></pre></td></tr></table></figure>
-<h3 id="Configuable-texts"><a href="#Configuable-texts" class="headerlink" title="Configuable texts"></a>Configuable texts</h3><p>Default words used for post title, category, tag, excerpt (when not specified) and archive page title are configured in the theme’s <code>languages/en.yml</code> and <code>languages/zh_CN.yml</code>.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># en.yml</span></span><br><span class="line"><span class="attr">untitled_post:</span> <span class="string">Untitled</span> <span class="string">Post</span></span><br><span class="line"><span class="attr">uncategorized:</span> <span class="string">Uncategorized</span></span><br><span class="line"><span class="attr">untagged:</span> <span class="string">Untagged</span></span><br><span class="line"><span class="attr">no_excerpt:</span> <span class="literal">No</span> <span class="string">Post</span> <span class="string">Excerpt</span></span><br><span class="line"><span class="attr">archive_title:</span> <span class="string">Blog</span> <span class="string">Archives</span></span><br></pre></td></tr></table></figure>
-<h3 id="Other-Configs"><a href="#Other-Configs" class="headerlink" title="Other Configs"></a>Other Configs</h3><p>Configure your Google Analytics Tracking ID, favicon in the theme’s <code>_config.yml</code>.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># favicon</span></span><br><span class="line"><span class="attr">favicon:</span> <span class="string">/favicon.png</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Google Analytics Tracking ID</span></span><br><span class="line"><span class="attr">google_analytics:</span></span><br></pre></td></tr></table></figure>
+            <p>
+              一次偶然的机会，我在网上看到了别人用Hexo框架搭建的博客觉得很新奇很好玩。于是就通过网上查找到的资料和现有的资源搭建了这一个基于Hexo框架的博客。
 
+未完待续
+
+              
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/02/17/1/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -564,17 +531,19 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+            <p>
+              Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+              ...
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/02/17/hello-world/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -669,14 +638,14 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  
+                  <a href="/tags/index.html">
                     
                     
                       
                     
                     <span class="site-state-item-count">1</span>
                     <span class="site-state-item-name">标签</span>
-                  
+                  </a>
                 </div>
               
             </nav>
@@ -811,6 +780,12 @@
 
 
 
+
+  
+    
+    
+  
+  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
 
