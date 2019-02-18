@@ -1904,7 +1904,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff6069;
+  background: #8ab1ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2675,13 +2675,13 @@ embed {
 }
 .site-meta {
   padding: 20px 0;
-  color: #fff;
+  color: #49b1f5;
   background: #49b1f5;
 }
 .site-subtitle {
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 13px;
-  color: #fff;
+  color: #49b1f5;
 }
 .btn {
   color: #49b1f5;
