@@ -318,16 +318,16 @@ span.exturl {
   overflow-wrap: break-word;
   word-wrap: break-word;
   background-color: transparent;
-  color: #87daff;
+  color: #555;
   text-decoration: none;
   outline: none;
-  border-bottom: 1px solid #0684bd;
+  border-bottom: 1px solid #999;
   cursor: pointer;
 }
 a:hover,
 span.exturl:hover {
-  color: #262a30;
-  border-bottom-color: #262a30;
+  color: #222;
+  border-bottom-color: #222;
 }
 blockquote {
   margin: 0;
@@ -968,7 +968,7 @@ pre .javascript .function {
 }
 .post-body .tabs ul.nav-tabs li.tab.active a {
   cursor: default;
-  color: #87daff;
+  color: #555;
 }
 .post-body .tabs .tab-content {
   background-color: #fff;
@@ -1104,7 +1104,7 @@ pre .javascript .function {
   margin: 10px;
 }
 .tag-cloud a:hover {
-  color: #262a30 !important;
+  color: #222 !important;
 }
 .back-to-top {
   box-sizing: border-box;
@@ -1630,11 +1630,11 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #87daff;
+  color: #555;
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #262a30;
+  color: #222;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1690,6 +1690,16 @@ pre .javascript .function {
 .fancybox-close,
 .fancybox-close:hover {
   border: none;
+}
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+}
+.post-copyright i.fa {
+  font-size: 15px;
 }
 .rtl.post-body p,
 .rtl.post-body a,
@@ -1894,7 +1904,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7ac64b;
+  background: #ff40b3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2024,10 +2034,13 @@ pre .javascript .function {
 .footer-inner {
   text-align: center;
 }
+#animate {
+  animation: iconAnimate 1.33s ease-in-out infinite;
+}
 .with-love {
   display: inline-block;
   margin: 0 5px;
-  color: #808080;
+  color: #66CCFF;
 }
 .powered-by,
 .theme-info {
