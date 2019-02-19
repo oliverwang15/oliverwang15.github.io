@@ -1920,7 +1920,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #dff;
+  background: #6bffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2695,6 +2695,14 @@ embed {
 .headband {
   height: 3px;
   background: #49b1f5;
+}
+.brand {
+  position: relative;
+  display: inline-block;
+  padding: 0 40px;
+  color: #49b1f5;
+  background: #222;
+  border-bottom: none;
 }
 .site-meta {
   padding: 20px 0;
