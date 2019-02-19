@@ -491,7 +491,7 @@ body {
 }
 @media (min-width: 1200px) {
   .container .header-inner {
-    width: 1200px;
+    width: 800px;
   }
 }
 @media (min-width: 1600px) {
@@ -505,7 +505,7 @@ body {
 }
 @media (min-width: 1200px) {
   .container .main-inner {
-    width: 1200px;
+    width: 800px;
   }
 }
 @media (min-width: 1600px) {
@@ -523,7 +523,7 @@ body {
 }
 @media (min-width: 1200px) {
   .container .footer-inner {
-    width: 1200px;
+    width: 800px;
   }
 }
 @media (min-width: 1600px) {
@@ -1920,7 +1920,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #617804;
+  background: #ff7ffb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2689,12 +2689,11 @@ embed {
   background: #49b1f5;
 }
 .site-meta {
-  padding: 20px 0;
   color: #49b1f5;
   background: #fff;
 }
 .site-subtitle {
-  color: #49b1f5 s;
+  color: #49b1f5;
 }
 .btn {
   color: #49b1f5;
