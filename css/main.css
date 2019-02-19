@@ -1920,7 +1920,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff;
+  background: #ffacd7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2693,6 +2693,7 @@ embed {
   background: #49b1f5;
 }
 .site-meta {
+  padding: 20px 0;
   color: #49b1f5;
   background: #fff;
 }
