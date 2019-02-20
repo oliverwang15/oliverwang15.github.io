@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hexo安装教程一]]></title>
-    <url>%2F2%2F</url>
+    <title><![CDATA[Hexo安装教程二： Hexo功能添加及NexT主题应用]]></title>
+    <url>%2F3%2F</url>
     <content type="text"></content>
       <categories>
         <category>Hexo</category>
+        <category>NexT</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo安装教程三： NexT主题的进阶配置]]></title>
+    <url>%2F4%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo安装教程一： Hexo的安装及部署]]></title>
+    <url>%2F2%2F</url>
+    <content type="text"><![CDATA[Hexo 博客的安装部分主要参考了 基于Hexo+Coding+Github搭建个人博客的全过程以及Windows下使用Hexo+GithubPage搭建博客这两篇文章，部分的图片也来自这两篇文章。在此对Miaia和Zackcheung两位大佬表示感谢，大家有兴趣也可以去光顾一下他们的个人博客。 本文的配置是基于Win10操作系统的，Linux和Mac OS系统的教程也类似，各位可以自行百度。 环境配置安装Node.js前往Node.js官网选择合适的版本下载即可（建议选择左边LTS的版本） 在cmd.exe中输入 node -v如果出现类似下图的版本号则说明安装成功。 未完待续]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[我是如何安装这个博客的]]></title>
     <url>%2F1%2F</url>
-    <content type="text"><![CDATA[一次偶然的机会，我在网上看到了别人用Hexo框架搭建的博客觉得很新奇很好玩。于是就通过网上查找到的资料和现有的资源搭建了这一个基于Hexo框架的博客。 Hexo安装教程一]]></content>
+    <content type="text"><![CDATA[一次偶然的机会，我在网上看到了别人用Hexo框架搭建的博客觉得很新奇很好玩。于是就通过网上查找到的资料和现有的资源搭建了这一个基于Hexo框架的博客。 具体搭建教程如下 Hexo安装教程一： Hexo的安装及部署 Hexo安装教程二： Hexo功能添加及NexT主题应用 Hexo安装教程三： NexT主题的进阶配置]]></content>
       <categories>
         <category>Hexo</category>
+        <category>NexT</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
