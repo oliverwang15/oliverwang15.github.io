@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[2]]></title>
+    <url>%2F2019%2F02%2F20%2F2%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[我是如何安装这个博客的]]></title>
     <url>%2F2019%2F02%2F17%2F1%2F</url>
-    <content type="text"><![CDATA[一次偶然的机会，我在网上看到了别人用Hexo框架搭建的博客觉得很新奇很好玩。于是就通过网上查找到的资料和现有的资源搭建了这一个基于Hexo框架的博客。 未完待续]]></content>
+    <content type="text"><![CDATA[一次偶然的机会，我在网上看到了别人用Hexo框架搭建的博客觉得很新奇很好玩。于是就通过网上查找到的资料和现有的资源搭建了这一个基于Hexo框架的博客。 Hexo安装教程一]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
         <tag>Hexo</tag>
       </tags>
