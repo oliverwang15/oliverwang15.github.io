@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hexo安装教程二： Hexo功能添加及NexT主题应用]]></title>
-    <url>%2F3%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Hexo安装教程三： NexT主题的进阶配置]]></title>
     <url>%2F4%2F</url>
     <content type="text"></content>
@@ -27,9 +14,22 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Hexo安装教程二： Hexo功能添加及NexT主题应用]]></title>
+    <url>%2F3%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo安装教程一： Hexo的安装及部署]]></title>
     <url>%2F2%2F</url>
-    <content type="text"><![CDATA[Hexo 博客的安装部分主要参考了 基于Hexo+Coding+Github搭建个人博客的全过程以及Windows下使用Hexo+GithubPage搭建博客这两篇文章，部分的图片也来自这两篇文章。在此对Miaia和Zackcheung两位大佬表示感谢，大家有兴趣也可以去光顾一下他们的个人博客。 本文的配置是基于Win10操作系统的，Linux和Mac OS系统的教程也类似，各位可以自行百度。 环境配置安装Node.js前往Node.js官网选择合适的版本下载即可（建议选择左边LTS的版本） 在cmd.exe中输入 node -v如果出现类似下图的版本号则说明安装成功。 未完待续]]></content>
+    <content type="text"><![CDATA[Hexo 博客的安装部分主要参考了[ 基于Hexo+Coding+Github搭建个人博客的全过程](https://11.tt/posts/2018/set-up-hexo-with-coding-and-github/)以及[Windows下使用Hexo+GithubPage搭建博客](https://www.cnblogs.com/chuangshaogreat/p/8698625.html)这两篇文章，部分的图片也来自这两篇文章。在此对[Miaia](https://github.com/miaia)和[Zackcheung](https://github.com/Hunter-Zack)两位大佬表示感谢，大家有兴趣也可以去光顾一下他们的个人博客。 本文的配置是基于Win10操作系统的，Linux和Mac OS系统的教程也类似，各位可以自行百度。 环境配置安装Node.js前往[Node.js官网](https://nodejs.org/en/)选择合适的版本下载即可（建议选择左边LTS的版本），在[命令行](https://www.baidu.com/s?ie=UTF-8&amp;wd=cmd)中输入 `node -v`如果出现类似下图的版本号则说明安装成功。 安装Git前往Git官网选择合适的版本下载即可。 在命令行中输入 `git –version`如果出现类似下图的版本号则说明安装成功。 安装博客首先在本地合适的地方新建一个叫Blog（或者其他名字）文件夹，文件右键，选择Git Bash Here。 在弹出的命令行中输入`npm install -g hexo` （安装过程中可能会出现`WARN`开头的提示，这是有些内容可能不兼容Window造成的。但并不影响最终的实际使用） 安装完毕之后在命令行输入hexo如果出现类似下图的操作提示则证明安装成功 接着在命令行中输入`hexo init hexo`来初始化hexo。初始化成功之后会显示如下图所示的`Start blogging with Hexo!`的字样。 接下来在命令行中输入`cd hexo`来进入到Hexo所在的文件夹中，再在命令行中输入`npm install`来安装必要的依赖。等待安装完成之后整个博客的基础安装部分就算完成了。如果想查看默认博客的效果，可以在命令行中输入`hexo g &amp;&amp; hexo s`。等待命令行出现如下所示的提示: 12INFO Start processing INFO Hexo is running at http://localhost:4000 . Press Ctrl+C to stop. 之后打开浏览器在地址栏中输入http://localhost:4000，如果出现如下图所示的页面那么 “恭喜你！你的Hexo博客已经安装成功了！” 发布博客（由于Git工具十分强大与便捷，所以原则上来说生成的Hexo博客可以被部署到几乎任何服务器上。百度上也有许多相关的教程这里我们选择部署到Github上，并将其作为能够通过固定链接访问的个人博客。） 配置GIthub首先需要在[Github官网](https://github.com/)上注册个人账号，然后单机右上角的**“+”**，再选择**“new repository”**。在页面中的**“Repository name”**中填入**“你的用户名.github.io&quot;**(这里**&quot;.github.io&quot;**前面填写的用户名必须是你的用户名！不然无法正常使用**)。其余的地方不用动！ 接着我们需要创建公钥，打开Git Bash输入如下命令：`ssh-keygen -t rsa -b 4096 -C &quot;你的GitHub账户邮箱&quot;`，成功后会如下图所示生成两个文件id_rsa 以及id_rsa.pub。 之后用记事本打开id_rsa.pub文件，复制里面的内容。打开Github的页面并登录，单击右上角你的头像，选择Settings-&gt; SSH keys-&gt;New SSH key，将刚才复制的内容填入Key（Title的内容可以随便填）。 然后用记事本打开hexo目录下配置文件_config.yml（如下图所示），并在最后的deploy属性中加入如下代码： 1234deploy： type: git repository: git@github.com:你的用户名/你的用户名.github.io.git branch: master 保存好之后在右键选择**Git Bash Here**，在命令行中输入`hexo clean &amp;&amp; hexo g &amp;&amp; hexo d`之后在浏览器的地址栏中输入`你的用户名.github.io`就能看到之前的那个页面啦！ 注册个人域名（可选） 未完待续]]></content>
       <categories>
         <category>Hexo</category>
         <category>NexT</category>
