@@ -1920,7 +1920,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #268e54;
+  background: #ee557a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2712,7 +2712,7 @@ embed {
 }
 .sidebar a,
 .sidebar .exturl {
-  color: #fff;
+  color: #87daff;
   border-bottom-color: #fff;
 }
 .sidebar-toggle {
@@ -2750,7 +2750,7 @@ embed {
   margin-top: 5px;
   text-align: center;
   font-size: 14px;
-  color: #fff;
+  color: #87daff;
 }
 .site-state-item {
   display: inline-block;
