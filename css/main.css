@@ -1920,7 +1920,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff8fc9;
+  background: #ffe54e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2788,7 +2788,14 @@ embed {
   border-radius: 50%;
   background: #fff;
 }
-s,
+.post-toc ol a {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
+  color: #49b1f5;
+  border-bottom-color: #555;
+}
 .btn-bar {
   display: block;
   width: 22px;
