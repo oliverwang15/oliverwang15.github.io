@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hexo安装教程二： Hexo功能添加及NexT主题应用]]></title>
-    <url>%2F3%2F</url>
+    <title></title>
+    <url>%2F%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E5%9F%8E%E5%B8%82%E6%89%80%E5%B1%9E%E7%9A%84%E7%9C%81%E4%BB%BD%E6%88%96%E6%98%AF%E5%8C%BA%E5%8E%BF%E6%89%80%E5%B1%9E%E7%9A%84%E5%9F%8E%E5%B8%82%2F</url>
+    <content type="text"><![CDATA[如何寻找城市所属的省份或是区县所属的城市前几天在做数据分析的时候，有许多城市的数据但是需要按照省份来统计。但一个个查对应的省份可能过于繁琐，因此就写了一个函数来解决这个问题，代码如下： 1234567891011121314151617181920212223242526272829import requestsdef search_city(name="上海",level=3): res=&#123;#一个字典 &#125; provinces=res["districts"][0]["districts"] if (level==1 or level==2 or level==3): res=[] for province in provinces: #print("1") cities=province["districts"] province_name=province["name"] if (name in province_name and level==1): res.append(&#123;"province_name":province_name&#125;) for city in cities: districts=city["districts"] city_name=city["name"] if (name in city_name and level==2): res.append(&#123;"province_name":province_name, "city_name:":city_name&#125;) for district in districts: district_name=district["name"] if (name in district_name and level==3): res.append(&#123;"province_name":province_name, "city_name":city_name, "district_name":district_name&#125;) return res else: return "请重新输入级别，1搜索省；2搜索市；3搜索县" 这个字典将附在文末，该字典也可以通过百度地图的api获取，代码如下： 12345678910111213import requestsimport jsondef get_data(keyword): url='http://api.map.baidu.com/api_region_search/v1/?keyword='+\ keyword+'&amp;sub_admin=3&amp;ak= ' #ak具体数值可以通过在https://lbsyun.baidu.com/注册得到，注册成功后控制台-应用管理-我的应用-创建应用 res=requests.get(url).json() return resres=get_data("中国")with open("china.json","w+") as p: json.dump(res,p) 使用的时候只需要如下操作即可： 1234import jsonwith open("china.json","r+") as d: res=json.load(d) 最后附上data_version为20201101的res数据的一部分: 1&#123;"status": 0, "data_version": "20201101", "result_size": 1, "districts": [&#123;"code": "", "name": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd", "level": 0, "districts": [&#123;"code": "", "name": "\u5317\u4eac\u5e02", "level": 1, "districts": [&#123;"code": "", "name": "\u5317\u4eac\u5e02", "level": 2, "districts": [&#123;"code": "", "name": "\u4e1c\u57ce\u533a", "level": 3, "districts": []&#125;, ......]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo安装教程三： NexT主题的进阶配置]]></title>
+    <url>%2F4%2F</url>
     <content type="text"></content>
       <categories>
         <category>Hexo</category>
@@ -14,8 +19,8 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hexo安装教程三： NexT主题的进阶配置]]></title>
-    <url>%2F4%2F</url>
+    <title><![CDATA[Hexo安装教程二： Hexo功能添加及NexT主题应用]]></title>
+    <url>%2F3%2F</url>
     <content type="text"></content>
       <categories>
         <category>Hexo</category>
